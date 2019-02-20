@@ -160,14 +160,15 @@ jQuery(document).ready(function($) {
 	var siteCarousel = function () {
 		if ( $('.nonloop-block-13').length > 0 ) {
 			$('.nonloop-block-13').owlCarousel({
-		    center: false,
+		    center: true,
 		    items: 1,
-		    loop: true,
+				loop: true,
+				autoplay: true,
 				stagePadding: 0,
 		    margin: 20,
-		    nav: false,
 		    dots: true,
-				navText: ['<span class="icon-arrow_back">', '<span class="icon-arrow_forward">'],
+				nav: true,
+		    navText: ['<span class="icon-arrow_back">', '<span class="icon-arrow_forward">'],
 		    responsive:{
 	        600:{
 	        	margin: 20,
