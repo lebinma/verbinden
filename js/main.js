@@ -166,7 +166,8 @@ jQuery(document).ready(function($) {
 				autoplay: true,
 				stagePadding: 0,
 		    margin: 20,
-		    dots: true,
+				dots: true,
+				pauseOnHover: false,
 				nav: true,
 		    navText: ['<span class="icon-arrow_back">', '<span class="icon-arrow_forward">'],
 		    responsive:{
